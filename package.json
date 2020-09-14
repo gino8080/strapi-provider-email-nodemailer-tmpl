@@ -1,13 +1,14 @@
 {
-  "name": "strapi-provider-email-nodemailer",
+  "name": "strapi-provider-email-nodemailer-tmpl",
   "version": "3.0.0",
-  "description": "Nodemailer provider for Strapi 3",
+  "description": "Nodemailer provider for Strapi with Jade templating",
   "main": "./lib",
   "directories": {
     "lib": "./lib"
   },
   "dependencies": {
     "dotenv": "8.1.0",
+    "email-templates": "^7.1.1",
     "lodash": "4.17.19",
     "nodemailer": "6.3.0",
     "nodemailer-html-to-text": "^3.1.0"
@@ -18,38 +19,33 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yutikom/strapi-provider-email-nodemailer.git"
+    "url": "git+https://github.com/gino8080/strapi-provider-email-nodemailer.git"
   },
   "keywords": [
     "Strapi",
     "Email",
     "Provider",
-    "Strapi 3"
+    "Strapi 3",
+    "templates",
+    "jade"
   ],
   "author": {
-    "name": "Yurii Tykhomyrov"
+    "name": "Gino8080"
   },
   "contributors": [
     {
-      "name": "Veit Bjarsch",
-      "email": "vb@poweruplink.com",
-      "url": "https://poweruplink.com"
-    },
-    {
-      "name": "Saunved Mutalik"
-    },
-    {
-      "name": "Robert Schäfer"
+      "name": "Gino8080",
+      "email": "gino8080@gmail.com"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yutikom/strapi-provider-email-nodemailer/issues"
+    "url": "https://github.com/gino8080/strapi-provider-email-nodemailer/issues"
   },
   "strapi": {
     "isProvider": true
   },
-  "homepage": "https://github.com/yutikom/strapi-provider-email-nodemailer#readme",
+  "homepage": "https://github.com/gino8080/strapi-provider-email-nodemailer#readme",
   "devDependencies": {
     "release-it": "13.6.5"
   }

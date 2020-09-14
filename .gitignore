@@ -100,3 +100,4 @@ node_modules
 ############################
 
 front-workspace.code-workspace
+lib/test.js
