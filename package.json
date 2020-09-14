@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gino8080/strapi-provider-email-nodemailer.git"
+    "url": "git+https://github.com/gino8080/strapi-provider-email-nodemailer-tmpl.git"
   },
   "keywords": [
     "Strapi",
@@ -40,12 +40,12 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gino8080/strapi-provider-email-nodemailer/issues"
+    "url": "https://github.com/gino8080/strapi-provider-email-nodemailer-tmpl/issues"
   },
   "strapi": {
     "isProvider": true
   },
-  "homepage": "https://github.com/gino8080/strapi-provider-email-nodemailer#readme",
+  "homepage": "https://github.com/gino8080/strapi-provider-email-nodemailer-tmpl#readme",
   "devDependencies": {
     "release-it": "13.6.5"
   }

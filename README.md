@@ -5,7 +5,7 @@ This release of the nodemailer provider for Strapi is compatible with Strapi 3.x
 ## Installation
 
 ```bash
-npm i strapi-provider-email-nodemailer
+npm i strapi-provider-email-nodemailer-tmpl
 ```
 
 ## Configuration
@@ -27,6 +27,9 @@ module.exports = ({ env }) => ({
     settings: {
       defaultFrom: 'hello@example.com',
       defaultReplyTo: 'hello@example.com',
+      //absolute path where templates are stored
+      tmplRoot: path.join(__dirname, 'emails'),
+      tmplName: 'base'
     }
   }
 });
